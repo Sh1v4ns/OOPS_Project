@@ -39,5 +39,5 @@ It prints the exchange sequence in this cycle, showing how an initial stake grow
 ## 3. Output
 If an arbitrage opportunity exists, the code prints the steps of the currency exchanges and the evolving value of the initial investment (starting with $1,000).
 If no arbitrage opportunity is found, it simply outputs "No arbitrage opportunity."
-Summary
+## Summary
 In essence, this code detects arbitrage opportunities by converting exchange rates into a graph, applying the Bellman-Ford algorithm to detect negative cycles, and then reporting the sequence of exchanges (if any) that would lead to a profit. This process is highly relevant in financial markets where exchange rate discrepancies across multiple currencies can lead to profit if acted on quickly
